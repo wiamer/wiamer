@@ -1,1 +1,7 @@
-Full name: Erem amarachi Winner Email address: erem.amarachi@gmail.com Slack username: Wiamer Tracks: Frontend and Backend Courses: Frontend - HTML, CSS Backend - Python, PHP
+Full name: Erem amarachi Winner 
+Email address: erem.amarachi@gmail.com 
+Slack username: Wiamer 
+Tracks: Frontend and Backend 
+Courses: 
+Frontend - HTML, CSS 
+Backend - Python, PHP
