@@ -1,3 +1,3 @@
-Weight = float(input('Radius: '))
-Area = 3.143 * (Weight ** 2)
+radius = float(input('Radius: '))
+Area = 3.143 * (radius ** 2)
 print(Area)
