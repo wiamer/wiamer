@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Interest calculator</title>
+</head>
+
+<body>
+    <h2>Interest Calculator</h2>
+    <script>
+        var data = [{
+            principal: 2500,
+            time: 1.8
+        }, {
+            principal: 1000,
+            time: 5
+        }, {
+            principal: 3000,
+            time: 1
+        }, {
+            principal: 2000,
+            time: 3
+        }];
+
+        // determine the function of the calculator
+        function interestCalculator(arr) {
+            let rate;
+            let interestData = [];
+
+            arr.forEach((entry, index) => {
+                // using if conditions to determine rate
+                if (entry.principal >= 2500 && entry.time > 1 && entry.time < 3) {
+                    rate = 3;
+                } else if (entry.principal >= 2500 && entry.time >= 3) {
+                    rate = 4;
+                } else if (entry.principal < 2500 || entry.time <= 1) {
+                    rate = 2;
+                } else {
+                    rate = 1
+                }
+
+
+                let interest = (entry.principal * entry.time * rate) / 100;
+
+
+                let obj = {
+                    principal: entry.principal,
+                    rate: rate,
+                    time: entry.time,
+                    interest: interest,
+                };
+                interestData.push(obj);
+            })
+            return interestData;
+
+            console.log(interestData);
+
+            interestCalculator(data);
+    </script>
+</body>
+
+</html>
