@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>
+        PiggyVest | Dashboard
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Karla&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('bg.jpg');
+            background-color: #ADD8E6;
+            font-family: 'Karla', sans-serif;
+            margin: 10% 20% 10% 20%;
+        }
+        
+        form {
+            background-color: white;
+            border-radius: 1px;
+            width: 50%;
+            text-align: left;
+            display: inline-block;
+            border-radius: 12px;
+            margin-left: 25%;
+        }
+        
+        #form_background {
+            margin: 5px 10px;
+            color: black;
+            background-color: white;
+        }
+        
+        img {
+            margin: 0 0 0 10%;
+            max-width: 25%;
+            margin-left: 35%;
+            margin-bottom: 2%;
+        }
+        
+        input {
+            border: thin;
+            margin: 10px 0 20px 20px;
+            background-color: #EFF4F5;
+            color: #bbe4f1;
+            height: 40px;
+            width: 90%;
+            text-indent: 15px;
+        }
+        
+        h1 {
+            color: #0D60D8;
+            font-size: large;
+            margin: 20px 0px 10px 5px;
+            padding: 2px;
+            font-family: 'Josefin Sans', sans-serif;
+            text-align: center;
+            Margin
+        }
+        
+        p {
+            color: #737983;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color: rgb(26, 25, 25);
+            font-size: small;
+            margin-top: 0px
+        }
+        
+        label {
+            margin-left: 20px;
+            margin-bottom: 10px;
+            text-size-adjust: smaller;
+        }
+        
+        select {
+            background-color: #EFF4F5;
+            margin-left: 15px;
+            border-radius: 4px;
+            color: #4b4d4e;
+            border: none;
+            height: 40px;
+            width: 90%;
+            text-indent: 8px;
+            margin-top: 8px;
+            margin-bottom: 15px;
+        }
+        
+        #submit {
+            width: 90%;
+            background-color: #0D60D8;
+            border-radius: 5px 5px 5px 0;
+            color: white;
+        }
+        
+        #login {
+            color: #083E9E;
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #083E9E;
+        }
+    </style>
+</head>
+
+<body>
+    <img id="img" src="piggy-png_1_.png" alt="PiggyVest Logo" />
+    <div id="frm">
+        <form action="" method="get" accept-charset="utf-8" id="form_input">
+
+            <h1>Create a Secure Account</h1>
+            <p>
+                Welcome to the future of savings & investments
+            </p>
+
+            <div id="form_input">
+                <label for="fname">Full Name</label><br/>
+                <input type="text" name="fname" id="fname" placeholder="Full Name" /><br/>
+            </div>
+
+            <div id="form_input">
+                <label for="mail">Email Address</label><br/>
+                <input type="email" name="email" id="email" placeholder="Email Address" /><br/>
+            </div>
+
+            <div id="form_input">
+                <label for="phone">Phone Number</label><br/>
+                <input type="number" name="pnumber" id="pnumber" placeholder="Phone Number" /><br/>
+            </div>
+
+            <div id="form_input">
+                <label for="pass">Password</label><br />
+                <input type="text" name="pword" id="pword" placeholder="Password" /><br/>
+            </div>
+
+            <div id="form_input">
+                <label for="referrer">Referrer Phone or Promo Code (Optional)</label><br />
+                <input type="text" name="referrer" id="referrer" placeholder="Referrer Phone or Code" /><br/>
+            </div>
+
+            <div id="form_input">
+                <label for="howdidyou">How did you hear about us? (Optional)</label><br />
+                <select name="Click Startto Select" id="Click to Select" placeholder="">
+				<option value="Click to Search">Click to select</option>
+				<option value="fb">Facebook</option>
+				<option value="twter">Twitter</option>
+				<option value="insta">Instagram</option>
+				<option value="ffc">Friend/Family/Coworker referral</option>
+				<option value="gs">Google Search</option>
+				<option value="gp">Google playstore</option>
+				<option value="ob">Online Blog</option>
+				<option value="ln">Local Newspaper</option>
+				<option value="aae">At an event</option>
+				<option value="Others">Others</option>
+			</select>
+                <div id="form_input">
+                    <input type="submit" name="" id="submit" value="CREATE ACCOUNT" />
+                </div>
+        </form>
+
+
+        <p id="login">
+            Already have an account? <a href="#">Log In.</a>
+        </p>
+
+
+</body>
+
+</html>
